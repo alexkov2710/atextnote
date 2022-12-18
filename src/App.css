@@ -33,14 +33,18 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em 1em 0 1em;
 }
 
 .note {
   margin-bottom: 10px;
 }
 
+.add-note {
+  margin-bottom: 20px;
+}
 
 .read-the-docs {
+  margin-top: 3em;
   color: #888;
 }

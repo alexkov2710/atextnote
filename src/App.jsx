@@ -18,14 +18,15 @@ function App() {
       </div> */}
       <h1><span style={{ color: "chartreuse"}}>Text</span><span style={{ color: "mediumvioletred"}}>Note</span>.Ru</h1>
       <div className="card">
-        <button className='note' onClick={() => setNotes((prev) => [
+
+        <button className='add-note' onClick={() => setNotes((prev) => [
             ...prev, 
             moment().valueOf()
           ])}>
           Добавить заметку
         </button>
 
-        {notes.length === 0 && <div><br/>Заметок пока нет...</div>}
+        {notes.length === 0 && <div className="note">Заметок пока нет...</div>}
 
         {notes.length > 0 && notes.map(note => {
           return (
