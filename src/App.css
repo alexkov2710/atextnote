@@ -36,6 +36,11 @@
   padding: 2em;
 }
 
+.note {
+  margin-bottom: 10px;
+}
+
+
 .read-the-docs {
   color: #888;
 }
